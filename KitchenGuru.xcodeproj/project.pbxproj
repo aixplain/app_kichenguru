@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF053EF62C65170C001EA1F2 /* aiXplainKit in Frameworks */ = {isa = PBXBuildFile; productRef = CF053EF52C65170C001EA1F2 /* aiXplainKit */; };
+		CF10EF942C21C69000C49360 /* KitchenGuruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10EF932C21C69000C49360 /* KitchenGuruApp.swift */; };
+		CF10EF962C21C69000C49360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10EF952C21C69000C49360 /* ContentView.swift */; };
+		CF10EF982C21C69100C49360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10EF972C21C69100C49360 /* Assets.xcassets */; };
+		CF10EF9B2C21C69100C49360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10EF9A2C21C69100C49360 /* Preview Assets.xcassets */; };
+		CF10EFA32C21C8F000C49360 /* IngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10EFA22C21C8F000C49360 /* IngredientListView.swift */; };
+		CF10EFA62C21C93800C49360 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10EFA52C21C93800C49360 /* Ingredient.swift */; };
+		CF27F5D02C21D83B00DADEC8 /* KitchenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF27F5CF2C21D83B00DADEC8 /* KitchenManager.swift */; };
+		CF59C6972C22175A00EF3CB4 /* AddIngredientSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C6962C22175A00EF3CB4 /* AddIngredientSheetView.swift */; };
+		CF59C69B2C2225E500EF3CB4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C69A2C2225E500EF3CB4 /* AppState.swift */; };
+		CF59C69D2C22265800EF3CB4 /* KitchenManager+aiXplain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C69C2C22265800EF3CB4 /* KitchenManager+aiXplain.swift */; };
+		CF59C69F2C222D7700EF3CB4 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C69E2C222D7700EF3CB4 /* Recipe.swift */; };
+		CF59C6A12C222E8800EF3CB4 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C6A02C222E8800EF3CB4 /* RecipeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF10EF902C21C69000C49360 /* KitchenGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10EF932C21C69000C49360 /* KitchenGuruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenGuruApp.swift; sourceTree = "<group>"; };
+		CF10EF952C21C69000C49360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF10EF972C21C69100C49360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF10EF9A2C21C69100C49360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF10EFA22C21C8F000C49360 /* IngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListView.swift; sourceTree = "<group>"; };
+		CF10EFA52C21C93800C49360 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CF27F5CF2C21D83B00DADEC8 /* KitchenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenManager.swift; sourceTree = "<group>"; };
+		CF59C6962C22175A00EF3CB4 /* AddIngredientSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientSheetView.swift; sourceTree = "<group>"; };
+		CF59C69A2C2225E500EF3CB4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CF59C69C2C22265800EF3CB4 /* KitchenManager+aiXplain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KitchenManager+aiXplain.swift"; sourceTree = "<group>"; };
+		CF59C69E2C222D7700EF3CB4 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CF59C6A02C222E8800EF3CB4 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF10EF8D2C21C69000C49360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF053EF62C65170C001EA1F2 /* aiXplainKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF10EF872C21C69000C49360 = {
+			isa = PBXGroup;
+			children = (
+				CF10EF922C21C69000C49360 /* KitchenGuru */,
+				CF10EF912C21C69000C49360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF10EF912C21C69000C49360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EF902C21C69000C49360 /* KitchenGuru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF10EF922C21C69000C49360 /* KitchenGuru */ = {
+			isa = PBXGroup;
+			children = (
+				CF59C6902C21D6FF00EF3CB4 /* ViewModel */,
+				CF10EFA42C21C92F00C49360 /* Model */,
+				CF10EFA12C21C8DE00C49360 /* View */,
+				CF10EF932C21C69000C49360 /* KitchenGuruApp.swift */,
+				CF10EF952C21C69000C49360 /* ContentView.swift */,
+				CF10EF972C21C69100C49360 /* Assets.xcassets */,
+				CF10EF992C21C69100C49360 /* Preview Content */,
+			);
+			path = KitchenGuru;
+			sourceTree = "<group>";
+		};
+		CF10EF992C21C69100C49360 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EF9A2C21C69100C49360 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF10EFA12C21C8DE00C49360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EFA22C21C8F000C49360 /* IngredientListView.swift */,
+				CF59C6962C22175A00EF3CB4 /* AddIngredientSheetView.swift */,
+				CF59C6A02C222E8800EF3CB4 /* RecipeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF10EFA42C21C92F00C49360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EFA52C21C93800C49360 /* Ingredient.swift */,
+				CF59C69A2C2225E500EF3CB4 /* AppState.swift */,
+				CF59C69E2C222D7700EF3CB4 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF59C6902C21D6FF00EF3CB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF27F5CF2C21D83B00DADEC8 /* KitchenManager.swift */,
+				CF59C69C2C22265800EF3CB4 /* KitchenManager+aiXplain.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF10EF8F2C21C69000C49360 /* KitchenGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10EF9E2C21C69100C49360 /* Build configuration list for PBXNativeTarget "KitchenGuru" */;
+			buildPhases = (
+				CF10EF8C2C21C69000C49360 /* Sources */,
+				CF10EF8D2C21C69000C49360 /* Frameworks */,
+				CF10EF8E2C21C69000C49360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitchenGuru;
+			packageProductDependencies = (
+				CF053EF52C65170C001EA1F2 /* aiXplainKit */,
+			);
+			productName = KitchenGuru;
+			productReference = CF10EF902C21C69000C49360 /* KitchenGuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF10EF882C21C69000C49360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF10EF8F2C21C69000C49360 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CF10EF8B2C21C69000C49360 /* Build configuration list for PBXProject "KitchenGuru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF10EF872C21C69000C49360;
+			packageReferences = (
+				CF053EF42C65170C001EA1F2 /* XCRemoteSwiftPackageReference "aiXplainKit" */,
+			);
+			productRefGroup = CF10EF912C21C69000C49360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF10EF8F2C21C69000C49360 /* KitchenGuru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF10EF8E2C21C69000C49360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EF9B2C21C69100C49360 /* Preview Assets.xcassets in Resources */,
+				CF10EF982C21C69100C49360 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF10EF8C2C21C69000C49360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EFA62C21C93800C49360 /* Ingredient.swift in Sources */,
+				CF27F5D02C21D83B00DADEC8 /* KitchenManager.swift in Sources */,
+				CF59C69D2C22265800EF3CB4 /* KitchenManager+aiXplain.swift in Sources */,
+				CF59C69B2C2225E500EF3CB4 /* AppState.swift in Sources */,
+				CF59C6A12C222E8800EF3CB4 /* RecipeView.swift in Sources */,
+				CF10EF962C21C69000C49360 /* ContentView.swift in Sources */,
+				CF59C6972C22175A00EF3CB4 /* AddIngredientSheetView.swift in Sources */,
+				CF59C69F2C222D7700EF3CB4 /* Recipe.swift in Sources */,
+				CF10EF942C21C69000C49360 /* KitchenGuruApp.swift in Sources */,
+				CF10EFA32C21C8F000C49360 /* IngredientListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF10EF9C2C21C69100C49360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF10EF9D2C21C69100C49360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF10EF9F2C21C69100C49360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenGuru/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y8ZK9WBN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aixplain.KitchenGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF10EFA02C21C69100C49360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenGuru/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y8ZK9WBN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aixplain.KitchenGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF10EF8B2C21C69000C49360 /* Build configuration list for PBXProject "KitchenGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10EF9C2C21C69100C49360 /* Debug */,
+				CF10EF9D2C21C69100C49360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF10EF9E2C21C69100C49360 /* Build configuration list for PBXNativeTarget "KitchenGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10EF9F2C21C69100C49360 /* Debug */,
+				CF10EFA02C21C69100C49360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF053EF42C65170C001EA1F2 /* XCRemoteSwiftPackageReference "aiXplainKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aixplain/aiXplainKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF053EF52C65170C001EA1F2 /* aiXplainKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF053EF42C65170C001EA1F2 /* XCRemoteSwiftPackageReference "aiXplainKit" */;
+			productName = aiXplainKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF10EF882C21C69000C49360 /* Project object */;
+}
